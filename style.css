@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.btn {
+    background-color: orange;
+    border:none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;     
+    width: 70%;
+    max-width: 1140px;
+    margin: auto;
+
+}
+
+.navlogo h1 {
+    font-size: 44px;
+    font-weight: bold;
+
+
+}
+
+
+.navlogo h1 span {
+    color: orange
+}
+
+
+.navlinks ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 70%;     
+    max-width: 1140px;
+    margin: auto;
+    background-color: #f6e9f8;
+    border-radius: 10px;
+    
+
+
+}
+
+#hero img {
+    width: auto;
+    height: 600px;
+    
+}
+#hero h1{
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    margin-bottom: 10px;
+    color: #787574;
+}
+
+
+#hero p {
+    margin-bottom: 20px;
+    color: #787574;
+}
+
+
+#working {}
+
+#working .area {
+    width: 70%;     
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+
+}
+
+#working .work {
+    width: 50%;
+    
+}
+
+#working .work h1 {
+    margin-bottom: 20px;
+}
+#working .work p {
+    color: #787574;
+    line-height: 1.6;
+}
+
+
+#working .worksteps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+#working .worksteps .part {
+    background-color: #f6e9f8;
+    padding: 20px;
+    border-radius: 10px;
+    
+    transition: background-color 0.3s ease;
+}
+#working .worksteps .part i {
+    font-size: 50px;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+#working .worksteps .part h2 {
+    margin-bottom: 10px;
+}
+
+
+#working .worksteps .part:hover {
+    background-color: #e0c3f2;
+}
+
+#footer {
+    background-color: #f6e9f8;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
